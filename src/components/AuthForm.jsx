@@ -9,6 +9,8 @@ import {
   Chip
 } from '@heroui/react'
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline'
+import yandexIcon from '../assets/yandex-icon.svg'
+import googleIcon from '../assets/google-icon.svg'
 
 const AuthForm = ({ onAuthSuccess }) => {
   const [isLogin, setIsLogin] = useState(true)
@@ -177,7 +179,7 @@ const AuthForm = ({ onAuthSuccess }) => {
             disabled={isLoading}
             startContent={
               <img 
-                src={userRegion === 'RU' ? '/yandex-icon.svg' : '/google-icon.svg'} 
+                src={userRegion === 'RU' ? yandexIcon : googleIcon} 
                 alt={userRegion === 'RU' ? 'Яндекс' : 'Google'}
                 className="w-5 h-5 mr-2"
               />
