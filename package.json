@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CrossEyedCat.github.io/test_work",
+  "homepage": "https://crosseyedcat.github.io/test_work",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
