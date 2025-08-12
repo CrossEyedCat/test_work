@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { HeroUIProvider } from '@heroui/react'
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import AuthForm from './components/AuthForm'
 import CompanyForm from './components/CompanyForm'
 import './App.css'
