@@ -1,0 +1,45 @@
+/* Tailwind импортируется через src/index.css (v4) */
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  /* убираем фон по умолчанию */
+  background-color: transparent;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  /* убираем центрирование и серый фон */
+  background: transparent;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  /* не принудительно выравниваем текст по центру */
+  text-align: initial;
+}
+
+.App {
+  /* убираем внешние отступы контейнера, чтобы не было "рамок" из фона body */
+  padding: 0;
+  min-height: 100vh;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card-shadow:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
